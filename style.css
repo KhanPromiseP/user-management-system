@@ -1,0 +1,107 @@
+table {
+    border-collapse: collapse;
+    top: 20%;
+    width: auto;
+    position: absolute;
+}
+
+a {
+    background-color: white;
+    text-underline-offset: 0;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: aquamarine;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+p {
+    text-align: center;
+    position: relative;
+}
+
+a:hover {
+    background-color: rosybrown;
+    color: azure;
+}
+
+td,
+th {
+    border: 2px solid black;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    flex: auto;
+    margin: 0;
+    justify-content: center;
+    position: absolute;
+    top: 0%;
+
+
+}
+
+body {
+    background-color: white;
+
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px rgb(30, 9, 9);
+    width: 300px;
+    height: min-content;
+    text-align: center;
+    padding: 4px;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    margin: 5px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #b0b0b0;
+    cursor: pointer;
+    color: #000;
+}
+
+input[type="submit"]:hover {
+    background-color: #ccc;
+}
+
+h4 {
+    position: absolute;
+    top: 5%;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    top: 0%;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./validate.js"></script>
+</head>
+
+<body>
+
+
+    <div class="form-container"><br>
+        <h2>Create A User</h2>
+        <form id="user-form" action="createUser.php" onclick="return validation()" method="POST">
+
+            <label for="username">Name:</label><br>
+            <input type="text" id="username" name="username" required><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="bio">Bio:</label><br>
+            <textarea type="text" id="bio" name="bio"></textarea><br><br>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="others"> others<br><br>
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
